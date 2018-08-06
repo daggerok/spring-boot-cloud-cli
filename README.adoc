@@ -11,7 +11,8 @@ brew install springboot
 # sdkman (bash):
 curl -s "https://get.sdkman.io" | bash
 source "$HOME/.sdkman/bin/sdkman-init.sh"
-sdk install springboot
+# latest stable version of Spring Boot CLI (for me at the moment is: 2.0.4)
+sdk install springboot 2.0.4.RELEASE
 sdk ls springboot
 
 # mac ports:
@@ -33,10 +34,10 @@ brew search spring
 brew install spring-completion
 ----
 
-.2. install latest stable version of Spring Cloud CLI (for me at the moment is: 1.3.3):
+.2. install latest stable version of Spring Cloud CLI (for me at the moment is: 2.0.0):
 [source,bash]
 ----
-spring install org.springframework.cloud:spring-cloud-cli:1.3.3.RELEASE
+spring install org.springframework.cloud:spring-cloud-cli:2.0.0.RELEASE
 ----
 
 NOTE: check latest stable version on home page: https://cloud.spring.io/spring-cloud-cli/
